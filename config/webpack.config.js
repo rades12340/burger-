@@ -78,9 +78,9 @@ module.exports = function(webpackEnv) {
       {
         loader: require.resolve("css-loader"),
         options: {
+          importLoaders: 1,
           modules: true,
-          localIdentName: "[path]___[name]__[local]___[hash:base64:5]",
-          importLoaders: 1
+          localIdentName: "[name]__[local]___[hash:base64:5]"
         }
       },
       {
