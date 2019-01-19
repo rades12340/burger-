@@ -1,7 +1,6 @@
 import React from "react";
 import classes from "./NavigationItems.css";
 import NavigationItem from "./NavigationItem/NavigationItem";
-import Auth from "../../../containers/Auth/Auth";
 
 const navigationItems = props => (
   <ul className={classes.NavigationItems}>
