@@ -2,8 +2,8 @@ import React from "react";
 import { expect } from "chai-enzyme";
 import { configure, shallow } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
-import NavigationItems from "./NavigationItems";
-import NavigationItem from "./NavigationItem/NavigationItem";
+import NavigationItems from "../components/Navigation/NavigationItems/NavigationItems";
+import NavigationItem from "../components/Navigation/NavigationItems/NavigationItem/NavigationItem";
 
 configure({ adapter: new Adapter() });
 
